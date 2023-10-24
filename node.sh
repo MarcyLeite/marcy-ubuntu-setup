@@ -6,6 +6,6 @@ bash ~/Downloads/install_nvm.sh
 mv ~/.bashrc-back ~/.bashrc
 mv ~/.profile-back ~/.profile
 
-source ~/.profile
+source ~/.zshrc
 nvm install --lts
 npm i -g gitmoji-cli
