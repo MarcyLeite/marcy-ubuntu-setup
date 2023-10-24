@@ -5,8 +5,6 @@ git clone https://github.com/0xComposure/monokai-gnome-terminal ~/Downloads/mono
 BASE_PATH=${PWD}
 
 cd ~/Downloads/monokai-gnome-terminal
-bash ./install.sh <<EOF
-1
-YES
-EOF
+bash ./install.sh
+
 cd ${BASE_PATH}
