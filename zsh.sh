@@ -6,5 +6,5 @@ exit
 EOF
 
 cp ${PWD}/files/flower-dance.zsh-theme ~/.oh-my-zsh/themes/flower-dance.zsh-theme
-sed 's/ZSH_THEME=.*/ZSH_THEME="flower-dance"/g' ~/.zshrc | tee ~/.zshrc
+sed -i 's/ZSH_THEME=.*/ZSH_THEME="flower-dance"/g' ~/.zshrc
 chsh -s $(which zsh)
