@@ -1,4 +1,5 @@
 mkdir ${PWD}/temp
+mkdir ~/.themes
 tar -xf ${PWD}/files/Nordic-darker.tar.xz -C ${PWD}/temp
 cp -r ${PWD}/temp/Nordic-darker-v40 ~/.themes/Nordic-darker-v40
 rm -r ${PWD}/temp
